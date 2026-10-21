@@ -38,63 +38,11 @@ This site embraces the bold, playful, and unapologetic aesthetics of **Neo-Bruta
 
 | Project | Category | Tech Stack | Highlights |
 | :--- | :--- | :--- | :--- |
-| **[TaskFlow](assets/apps/taskflow-debug.apk)** | Native Android | Kotlin 2.0, Jetpack Compose, Material 3, Room SQLite, Coroutines Flow | Offline-first task management with dynamic Material You theming and direct APK download. |
+| **TaskFlow** | Native Android | Kotlin 2.0, Jetpack Compose, Material 3, Room SQLite, Coroutines Flow | Offline-first task management with dynamic Material You theming and direct APK download. |
 | **The Saigon Drip** | Game Development | Unity Engine, C#, Custom Physics, Visual Studio | Atmospheric indie action game with custom player movement, collision physics, and game-state machines. |
 | **JPP PMKL Student Portal** | Campus Production | Cloudflare Workers, Edge KV, Vanilla JS, REST APIs | Centralized portal managing student affairs, circulars, and campus printing queues for PMKL. |
 | **SiswaSihat** | Mobile App | React Native, Expo, Async Storage | Student health & BMI monitoring app built for polytechnic community fitness programs. |
 | **SmartPDF / EZPDF** | Web Utility | JavaScript, PDF-Lib, HTML5 Canvas | Browser-based zero-upload PDF management tool for merging, splitting, and reordering documents. |
-
----
-
-## 📂 Project Structure
-
-```text
-My Portfolio/
-├── index.html                 # Semantic HTML5 document with structured sections
-├── serve.ps1                  # Native zero-dependency PowerShell HTTP dev server
-├── .gitignore                 # Clean Git exclusions
-├── css/
-│   ├── style.css              # Neo-Brutalist design tokens, layout & dual-theme rules
-│   └── animations.css         # Keyframe animations (marquee, float, pulse)
-├── js/
-│   ├── main.js                # Live Kuala Lumpur clock, theme switcher & form toast
-│   └── projects.js            # 11+ project catalog, category filter & specs modal
-└── assets/
-    ├── apps/
-    │   └── taskflow-debug.apk # Direct debug APK download for TaskFlow
-    ├── docs/
-    │   └── Muhamad_Afif_Resume.pdf # Official verified student resume
-    ├── icons/
-    │   └── ezpdf.svg
-    └── images/
-        ├── afif-photo.png     # Profile photo
-        ├── jpp-logo.png       # JPP PMKL official emblem
-        ├── jpp-team.jpeg      # Student representative committee
-        └── taskflow-icon.png  # TaskFlow official vector icon
-```
-
----
-
-## 🚀 Running Locally
-
-No Node.js, Python, or bundler installation is required. You can launch the site locally using the included native PowerShell server:
-
-```powershell
-# Open terminal in the project directory
-powershell -ExecutionPolicy Bypass -File .\serve.ps1
-```
-
-Or with any static web server:
-
-```bash
-# Using Python
-python -m http.server 3000
-
-# Using Node (npx)
-npx serve .
-```
-
-Then visit: `http://localhost:3000/`
 
 ---
 
