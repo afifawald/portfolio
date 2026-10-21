@@ -38,11 +38,11 @@ This site embraces the bold, playful, and unapologetic aesthetics of **Neo-Bruta
 
 | Project | Category | Tech Stack | Highlights |
 | :--- | :--- | :--- | :--- |
-| **TaskFlow** | Native Android | Kotlin 2.0, Jetpack Compose, Material 3, Room SQLite, Coroutines Flow | Offline-first task management with dynamic Material You theming and direct APK download. |
+| [**TaskFlow**](https://github.com/afifawald/TaskFlow) | Native Android | Kotlin 2.0, Jetpack Compose, Material 3, Room SQLite, Coroutines Flow | Offline-first task management with dynamic Material You theming and direct APK download. |
 | **The Saigon Drip** | Game Development | Unity Engine, C#, Custom Physics, Visual Studio | Atmospheric indie action game with custom player movement, collision physics, and game-state machines. |
-| **JPP PMKL Student Portal** | Campus Production | Cloudflare Workers, Edge KV, Vanilla JS, REST APIs | Centralized portal managing student affairs, circulars, and campus printing queues for PMKL. |
+| [**JPP PMKL Student Portal**](https://github.com/afifawald/JPP-PMKL-STUDENT-PORTAL) | Campus Production | Cloudflare Workers, Edge KV, Vanilla JS, REST APIs | Centralized portal managing student affairs, circulars, and campus printing queues for PMKL. |
 | **SiswaSihat** | Mobile App | React Native, Expo, Async Storage | Student health & BMI monitoring app built for polytechnic community fitness programs. |
-| **SmartPDF / EZPDF** | Web Utility | JavaScript, PDF-Lib, HTML5 Canvas | Browser-based zero-upload PDF management tool for merging, splitting, and reordering documents. |
+| [**SmartPDF / EZPDF**](https://github.com/afifawald/EZPDF) | Web Utility | JavaScript, PDF-Lib, HTML5 Canvas | Browser-based zero-upload PDF management tool for merging, splitting, and reordering documents. |
 
 ---
 
